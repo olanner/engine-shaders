@@ -18,9 +18,6 @@ layout(set = 3, binding = 0) uniform accelerationStructureEXT topLevelAS[SET_TLA
 struct hitPayload
 {
 	vec3  shadedValue;
-	//vec3  worldPos;
-	//vec3  normal;
-	//float roughness;
 	bool  hit;
 };
 
